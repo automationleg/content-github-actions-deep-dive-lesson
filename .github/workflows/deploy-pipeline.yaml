@@ -61,4 +61,4 @@ jobs:
           body: New release for ${{ github.sha }}. Release notes can be found in docs
           draft: false
           prerelease: false
-          artifacts: zipped-bundle
+          artifacts: ${{ github.sha }}.zip
